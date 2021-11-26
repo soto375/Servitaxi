@@ -1,0 +1,200 @@
+.nav-tabs-custom>.nav-tabs>li>a{
+	padding: 10px 5px!important;
+}
+
+.image, .btn-centrar{
+	text-align: center!important;
+}
+
+.user-panel>.image>img{
+	max-width: 150px!important;
+	max-height: 150px!important;
+}
+
+.imagen-perfil 
+{
+  width: 175px!important;
+  height: 175px!important;
+}
+
+.alerta{
+	  color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+}
+
+.box-header{
+  text-align: center;
+}
+
+.box-header > h3{
+  font-weight: 700;
+}
+
+.formato-upload{
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 4px;
+  border: 1px solid gray;
+  cursor: pointer;
+  text-align: center;
+  padding: 8px;
+}
+
+.formato-upload i {
+  display: block;
+  width: 30px;
+  height: 30px;
+  font-size: 40px;
+  margin: 0 auto;
+}
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+.border-left-gray{
+  border-left: 2px solid rgba(230,230, 230, 0.6);
+  position: relative;
+}
+.border-left-gray:before {
+  content: "";
+  position: absolute;
+  top: 45%;
+  left: -8px;
+  height: 15px;
+  width: 15px;
+  background: rgba(230,230, 230, 1);
+  border-radius: 100%;
+  margin-bottom: 5px;
+  border: 3px solid white;
+}
+
+blockquote{
+    margin: 0px!important;
+    border-color: green;
+    padding-left: 5px!important;
+}
+.btn-circle {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.btn-circle span, .btn-circle i {
+  position: relative;
+  top: -1px;
+}
+
+.btn-circle-sm {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 0.9rem;
+}
+
+.btn-circle-lg {
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 1.1rem;
+}
+
+.btn-circle-xl {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 1.3rem;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+.footer{
+  background-color: var(--secondary-color);
+}
+
+.footer-accent{
+  background-color: var(--primary-color-translucent);
+}
+
+.footer-accent-dg{
+   background: -webkit-gradient(linear, left top, left bottom, from(white), to(var(--tree-color-translucent-30)));
+    background: -o-linear-gradient(white, var(--tree-color-translucent-30));
+    background: linear-gradient(white, var(--tree-color-translucent-30));
+}
+
+.estilo-redondo-1{
+  width: 50%;
+  height: 101%;
+  background-color: white;
+  border-radius: 100%;
+  position: absolute;
+  left: -130px;
+  top: -5px;
+}
+
+.estilo-redondo-2{
+  width: 50%;
+  height: 101%;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 100%;
+  position: absolute;
+  left: -160px;
+  top: -5px;
+}
+
+.estilo-redondo-3{
+  width: 50%;
+  height: 101%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 100%;
+  position: absolute;
+  left: -190px;
+  top: -5px;
+}
+.sheetSlider input:nth-child(1):checked ~ .sh__btns label:nth-child(1), .sheetSlider input:nth-child(10):checked ~ .sh__btns label:nth-child(10), .sheetSlider input:nth-child(2):checked ~ .sh__btns label:nth-child(2), .sheetSlider input:nth-child(3):checked ~ .sh__btns label:nth-child(3), .sheetSlider input:nth-child(4):checked ~ .sh__btns label:nth-child(4), .sheetSlider input:nth-child(5):checked ~ .sh__btns label:nth-child(5), .sheetSlider input:nth-child(6):checked ~ .sh__btns label:nth-child(6), .sheetSlider input:nth-child(7):checked ~ .sh__btns label:nth-child(7), .sheetSlider input:nth-child(8):checked ~ .sh__btns label:nth-child(8), .sheetSlider input:nth-child(9):checked ~ .sh__btns label:nth-child(9){
+ background-color: var(--secondary-color) !important; 
+}
+
+.color-contenido-white > * {
+  color: white !important;
+}
+
+.producto {
+ 
+}
+
+.nombre-producto{
+  }

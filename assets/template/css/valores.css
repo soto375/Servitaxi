@@ -1,0 +1,79 @@
+.valores{
+  flex-shrink: 1;
+  position: relative;
+}
+.tranformation-0 {
+  -webkit-transform: translateY(0px) rotate(180deg);
+        -ms-transform: translateY(0px) rotate(180deg);
+            transform: translateY(0px) rotate(180deg);
+}
+.background-vibrant{
+  width: 75%;
+  position: absolute;
+  background-color: #901f61;
+background: -webkit-gradient(linear, left top, right top, from(rgba(144,31,97,1)), color-stop(29%, rgba(233,40,36,0.964005585144214)), color-stop(68%, rgba(129,131,253,0.913585417076987)), to(rgba(144,31,97,1)));
+background: -o-linear-gradient(left, rgba(144,31,97,1) 0%, rgba(233,40,36,0.964005585144214) 29%, rgba(129,131,253,0.913585417076987) 68%, rgba(144,31,97,1) 100%);
+background: linear-gradient(90deg, rgba(144,31,97,1) 0%, rgba(233,40,36,0.964005585144214) 29%, rgba(129,131,253,0.913585417076987) 68%, rgba(144,31,97,1) 100%);
+  padding: 60px 0;
+  box-sizing: content-box;
+  left: 5%;
+}
+
+.background-vibrant-last{
+  width: 28%;
+  position: absolute;
+  background-color: #901f61;
+background: -webkit-gradient(linear, left top, right top, from(rgba(144,31,97,1)), color-stop(29%, rgba(233,40,36,0.964005585144214)), color-stop(68%, rgba(129,131,253,0.913585417076987)), to(rgba(144,31,97,1)));
+background: -o-linear-gradient(left, rgba(144,31,97,1) 0%, rgba(233,40,36,0.964005585144214) 29%, rgba(129,131,253,0.913585417076987) 68%, rgba(144,31,97,1) 100%);
+background: linear-gradient(90deg, rgba(144,31,97,1) 0%, rgba(233,40,36,0.964005585144214) 29%, rgba(129,131,253,0.913585417076987) 68%, rgba(144,31,97,1) 100%);
+  padding: 60px 0;
+  box-sizing: content-box;
+  left: 5%;
+}
+
+.valores > div:first-child:hover{
+  color:white;
+  background: #901f61;
+  border:2px solid white;
+  font-weight: bold;
+}
+
+
+.valores > div:first-child {
+  cursor: pointer;
+  -webkit-transition: all 0.5s linear 0s;
+  -o-transition: all 0.5s linear 0s;
+  transition: all 0.5s linear 0s;
+   -webkit-box-flex: 1  !important;
+        -ms-flex: 0 0 130px  !important;
+            flex: 0 0 130px  !important;
+    height: 130px;
+    max-width: 130px;    
+    background: white;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    border-left: 2px solid  #901f61;
+    border-right: 2px solid #901f61;
+    border-top: 4px dashed #901f61;
+    border-bottom: 4px dashed #901f61;
+    border-radius:100%;
+    -ms-flex-item-align: center;
+        align-self: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+            padding: 10px;
+  }
+
+  .valores > p {
+    text-align: justify;
+    display: none;
+    position: absolute;
+    top:0;
+    left: 130px;
+  }

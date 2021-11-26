@@ -1,0 +1,110 @@
+.nav-tabs-custom>.nav-tabs>li>a{
+	padding: 10px 5px!important;
+}
+
+.image, .btn-centrar{
+	text-align: center!important;
+}
+
+.user-panel>.image>img{
+	max-width: 150px!important;
+	max-height: 150px!important;
+}
+
+.imagen-perfil 
+{
+  width: 175px!important;
+  height: 175px!important;
+}
+
+.alerta{
+	color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+}
+
+.box-header{
+  text-align: center;
+}
+
+.box-header > h3{
+  font-weight: 700;
+}
+
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+blockquote{
+    margin: 0px!important;
+    border-color: green;
+    padding-left: 5px!important;
+}
+.btn-circle {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.btn-circle span, .btn-circle i {
+  position: relative;
+  top: -1px;
+}
+
+.btn-circle-sm {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 0.9rem;
+}
+
+.btn-circle-lg {
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 1.1rem;
+}
+
+.btn-circle-xl {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 1.3rem;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+#example1{
+  width: 100% !important;
+}
